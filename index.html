@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pregunta Banner</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div id="gifContainer">
+            <img id="gifContainerImg" src="pregunta.gif" alt="Ositos Iniciales" >
+        </div>
+        <div id="happyGifContainer" style="display: none;">
+            <img src="homero.gif" alt="Ositos Felices" style="width: 30%; height: 30%;">
+        </div>
+ 
+        
+        <h1 id="question"> ¿Estas dentro de esta gran optimización a Banner?</h1>
+        <div id="messageContainer" style="display: none;"></div>
+        
+        
+        <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="siBtn" value="Si" />
+        <input type="button" id="noBtn" onmouseover="mueveElBoton()" value="No" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
